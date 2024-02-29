@@ -1,4 +1,5 @@
 <?php
+//php correto com notícias terranova
 // Replace this URL with the RSS feed you want to fetch
 $jsonFeedUrl = 'https://terranova-d10.pictonio.pt/recentnews';
 
