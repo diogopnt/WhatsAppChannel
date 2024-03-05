@@ -25,7 +25,7 @@ function sendMessage($title, $link, $description)
     $curl = curl_init();
 
     $url = 'https://graph.facebook.com/v18.0/253772191149690/messages';
-    $token = 'EAAP34pBSvoIBO5p5c7lwsuggxt0LwPlfqJsX7KMkRJhyQbOJBG9WBWMhxhMl2mzcJBTFGH3YE0IEauW6CJxxZBVinnY6tGxFCTzw6MQMCgcB46JZBKdcAmXxuuH2WRrcZCdCqZB2NKtFkSZB1Fxjqcm8SDmusvUhZCA5sXyLSIQsjhHfGYjZBIi2SjuikHkOdZA6vPMg4LZC92AxfwJKGZAw49';
+    $token = 'EAAP34pBSvoIBO5AuBn6o3u68Qar8ZBZAsamLRZA2dNSFv2Lu6AuCKAF0WeAWnatcLsefOBZAMnuwfZCLjmvKe8flp4tchfDbQebpwbl3b7YeJLKXuzX1yZCwtWvqisCj6ViZBPPmW9zeAhHvUhQtDlzCbeaKgpLag0xqk91xOJLHNLXQnepXm3TJk2HuddujuSMtrZCa0bZBbjkrSjwpZAtNtU';
 
     //payload ainda não funciona
     $payload = '{
