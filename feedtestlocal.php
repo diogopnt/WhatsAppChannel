@@ -3,7 +3,7 @@
 $jsonFilePath = 'feed.json';
 
 // Read the JSON data from the file
-$jsonData = file_get_contents($jsonFilePath);
+$jsonData = file_get_contents((dirname(dirname(__FILE__)).'/WhatsAppChannel/feed.json'));
 
 if ($jsonData !== false) {
     // Decode the JSON data
